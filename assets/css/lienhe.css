@@ -1,0 +1,39 @@
+.top {
+    background-image: url(../../source/img/banner_kh1.jpg);
+    box-shadow: 0 6px 20px -10px #000;
+    margin-bottom: 10px;
+  }
+  
+  .top img {
+    width: 13%;
+    padding-top: 5rem;
+    padding-left: 5rem;
+  }
+  
+  .top h1 {
+    display: inline;
+    position: absolute;
+    top: 9rem;
+    left: 38rem;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0.2rem 0.2rem gray;
+  }
+  
+  .navbar a:last-child {
+    background-color: #d92929;
+  }
+  
+  .box-header h1 {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000;
+  }
+  
+  .box-header hr {
+    margin: 1rem 30rem;
+  }
+  

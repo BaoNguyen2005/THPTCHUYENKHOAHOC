@@ -1,0 +1,81 @@
+.navbar a:first-child {
+  background-color: #d92929;
+}
+
+.top {
+  display: flex;
+  padding-top: 3.4rem;
+}
+
+.top .top_content {
+  flex: 1;
+  position: relative;
+}
+
+.top .top_content .logo {
+  position: absolute;
+  top: 2.6rem;
+  left: 10rem;
+  width: 10%;
+}
+
+.top .top_content .top_content_hero {
+  padding: 17rem 5rem 5rem 10rem;
+}
+
+.top .top_content .top_content_hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.top .top_content .top_content_hero span {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  display: inline-block;
+  padding-top: 2rem;
+}
+
+.top .top_content .top_content_hero .btn {
+  padding-top: 3rem;
+}
+.top .top_content .top_content_hero button {
+  background-color: #143980;
+  border: none;
+  padding: 1.5rem 2rem;
+  color: white;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 1rem;
+}
+.top .top_sup_content {
+  background: #00447c;
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top .top_sup_content nav {
+  color: white;
+}
+
+.top .top_sup_content nav ul {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.top .top_sup_content nav ul li {
+  opacity: 0.75;
+  font-size: 1.25rem;
+  padding: 2rem 2rem;
+  cursor: pointer;
+}
+
+.top .top_sup_content nav ul li:hover {
+  opacity: 1;
+}
+
+.top .top_sup_content img {
+  max-width: 100%;
+}
